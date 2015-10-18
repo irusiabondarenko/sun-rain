@@ -1,0 +1,82 @@
+body{
+	background-image: url(944669-nature.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.circle{
+	size:auto;
+    width:220px;
+	height:220px;
+	-moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+	position: relative;
+	background:rgba(30,90,210,0.7);
+	overflow: hidden;	
+}
+
+.container {
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform:translateY(-50%)translateX(-50%);
+	font-family:'Roboto', sans-serif;
+	font-weight:300;
+	color: white;
+}
+
+
+#city {
+	font-size:160%;
+	padding-bottom: 30px;
+}
+
+#temp {
+	font-size: 230%;
+	padding-bottom: 25px;
+}
+
+#font {
+	padding-bottom:10px;
+	font-family: "Weather";
+	color: white;
+	font-size: 78px;
+}
+
+#loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 28px;
+  height: 28px;
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  border-top-color: rgba(255, 255, 255, 0.4);
+  border-left-color: rgba(255, 255, 255, 0.4);
+  margin: -14px;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-animation: spin .9s infinite linear;
+  animation: spin .9s infinite linear;
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@font-face{
+	font-family:"Weather";
+	src: url(artill_clean_icons.woff) format('woff');
+}
+
