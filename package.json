@@ -1,0 +1,22 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "App for weather observation in user's location",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:\\\\Users\\\\Maksym\\\\Desktop\\\\applications\\\\weather"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Iryna Bondarenko",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
